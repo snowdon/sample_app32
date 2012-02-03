@@ -30,10 +30,11 @@ gem 'jquery-rails'
 
 group :test do
   gem 'capybara', '1.1.2'
-#  gem 'rb-fsevent'
 
   gem 'rb-fsevent', '0.4.3.1', :require => false
   gem 'growl', '1.0.3'
+
+  gem 'factory_girl_rails', '1.4.0'
 
 #  gem 'guard-spork', '0.3.2'
 #  gem 'spork', '~> 0.9.0.rc'
